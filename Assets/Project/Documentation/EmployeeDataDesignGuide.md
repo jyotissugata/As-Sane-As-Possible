@@ -35,6 +35,7 @@ Create 8-10 employees with different skill combinations to give players meaningf
 ---
 
 ### **3. The People Person - High Communication Skill**
+**Name:** Tommy
 **Description:** Excellent communicator who bridges gaps between teams.
 **Skills:**
 - Technical Skill: 40

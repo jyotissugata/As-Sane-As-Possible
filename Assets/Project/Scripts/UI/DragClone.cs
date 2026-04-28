@@ -13,6 +13,8 @@ public class DragClone : MonoBehaviour
     public TextMeshProUGUI employeeNameText;
     public TextMeshProUGUI technicalSkillText;
     public TextMeshProUGUI creativeSkillText;
+    public TextMeshProUGUI communicationSkillText;
+    public TextMeshProUGUI managementSkillText;
     public TextMeshProUGUI sanityText;
     public Image portraitImage;
 
@@ -36,6 +38,12 @@ public class DragClone : MonoBehaviour
 
         if (creativeSkillText != null)
             creativeSkillText.text = $"Creative: {employeeData.creativeSkill}";
+
+        if (communicationSkillText != null)
+            communicationSkillText.text = $"Comm: {employeeData.communicationSkill}";
+
+        if (managementSkillText != null)
+            managementSkillText.text = $"Mgmt: {employeeData.managementSkill}";
 
         if (sanityText != null)
             sanityText.text = $"Sanity: {employeeData.sanity}";

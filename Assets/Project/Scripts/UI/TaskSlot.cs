@@ -126,7 +126,14 @@ public class TaskSlot : MonoBehaviour, IDropHandler
             //taskIconImage.gameObject.SetActive(taskData != null);
         
         if (taskIconImage != null && taskData != null && taskData.taskIcon != null)
+        {
+            taskIconImage.gameObject.SetActive(true);
             taskIconImage.sprite = taskData.taskIcon;
+        }
+        else if (taskIconImage != null)
+        {
+            taskIconImage.gameObject.SetActive(false);
+        }
         
         UpdateTurnDisplay();
     }
