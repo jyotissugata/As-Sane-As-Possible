@@ -1,0 +1,29 @@
+# Unity generated folders
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+
+# Memory and performance captures
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# Asset Store and plugin tools
+/[Aa]ssets/AssetStoreTools*
+
+# IDE/Tool specific (Visual Studio, JetBrains, etc.)
+.vs/
+.idea/
+*.csproj
+*.sln
+*.suo
+*.user
+*.unityproj
+*.booproj
+
+# OS generated
+.DS_Store
+Thumbs.db
