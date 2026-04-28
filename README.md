@@ -36,10 +36,6 @@ Role: Used as the primary agentic IDE.
 
 Impact: Windsurf handled the rapid architecting of the C# ScriptableObject systems and the core Turn-Based engine. It allowed me to focus on high-level logic and balancing while the AI handled the boilerplate implementation of the Drag & Drop and UI Event systems.
 
-3. Generative Assets
-Role: Used for UI icons, employee portraits, and background music.
-
-Impact: Allowed for a cohesive "Corporate Satire" aesthetic without diverting time from core mechanic development.
 
 ## Evaluation Check
 Functional: The core loop (Drag-to-Assign -> Next Turn -> Sanity/Money Calculation) is fully operational.
